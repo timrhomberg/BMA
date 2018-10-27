@@ -1,5 +1,5 @@
 # BMA
-#Installation
+# Installation
 ## Paketlisten aktualisieren
 ```
 sudo apt-get update
