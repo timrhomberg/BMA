@@ -11,7 +11,7 @@ try:
     vartext = r.recognize_google(audio, language="de_DE")
     if (vartext == 'start') or (vartext == 'starten'):
         print ('Auto fährt gerade los')
-    elif (vartext == 'rechts abbiegen') or (vartext == 'rechts')
+    elif (vartext == 'rechts abbiegen') or (vartext == 'rechts'):
         print('Auto biegt rechts ab')
     else:
         print(vartext)
