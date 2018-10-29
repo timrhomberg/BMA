@@ -16,6 +16,8 @@ while True:
             print('Auto biegt rechts ab')
         elif (vartext == 'links abbiegen') or (vartext == 'links'):
             print('Auto biegt links ab')
+        elif (vartext == 'stop') or (vartext == 'anhalten'):
+            print('Auto haltet an')
         else:
             print(vartext)
     except sr.UnknownValueError:
