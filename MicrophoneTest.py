@@ -7,7 +7,14 @@ with sr.Microphone(device_index=2) as source:
     audio = r.listen(source)
 
 try:
-    print("Google Speech Recognition thinks you said " + r.recognize_google(audio))
+    vartext = ''
+    vartext = r.recognize_google(audio, language="de_DE")
+    if (vartext == 'start') or (vartext == 'starten'):
+        print ('Auto fährt gerade los')
+    elif (vartext == 'rechts abbiegen') or (vartext == 'rechts')
+        print('Auto biegt rechts ab')
+    else:
+        print(vartext)
 except sr.UnknownValueError:
     print("Google Speech Recognition could not understand audio")
 except sr.RequestError as e:
