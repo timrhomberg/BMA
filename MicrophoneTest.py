@@ -28,7 +28,6 @@ def linksFahren():
     MotorPort3.run(Adafruit_MotorHAT.BACKWARD)
     MotorPort3.setSpeed(50)
 
-atexit.register(MotorenAbschalten)
 
 while True:
     mh = Adafruit_MotorHAT(addr=0x60)
@@ -59,3 +58,5 @@ while True:
         print("Google Speech Recognition could not understand audio")
     except sr.RequestError as e:
         print("Could not request results from Google Speech Recognition service; {0}".format(e))
+
+atexit.register(MotorenAbschalten)
