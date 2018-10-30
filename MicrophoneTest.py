@@ -14,12 +14,12 @@ def MotorenAbschalten():
     mh.getMotor(4).run(Adafruit_MotorHAT.RELEASE)
 
 def geradeFahren():
-    MotorPort4.run(Adafruit_MotorHAT.FORWARD)
-    MotorPort4.setSpeed(100)
+    MotorPort3.run(Adafruit_MotorHAT.FORWARD)
+    MotorPort3.setSpeed(100)
 
 def rueckwaertsFahren():
-    MotorPort4.run(Adafruit_MotorHAT.BACKWARD)
-    MotorPort4.setSpeed(100)
+    MotorPort3.run(Adafruit_MotorHAT.BACKWARD)
+    MotorPort3.setSpeed(100)
 
 def rechtsFahren():
     MotorPort4.run(Adafruit_MotorHAT.FORWARD)
