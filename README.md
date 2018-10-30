@@ -1,5 +1,4 @@
-# BMA
-# Installation
+# BMA Installation und Konfiguration
 ## Paketlisten aktualisieren
 ```
 sudo apt-get update
