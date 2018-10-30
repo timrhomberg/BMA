@@ -5,8 +5,8 @@ import time
 import atexit
 
 mh = Adafruit_MotorHAT(addr=0x60)
-    MotorPort3 = mh.getMotor(3)
-    MotorPort4 = mh.getMotor(4)
+MotorPort3 = mh.getMotor(3)
+MotorPort4 = mh.getMotor(4)
 
 
 def MotorenAbschalten():
