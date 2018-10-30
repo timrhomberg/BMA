@@ -15,7 +15,7 @@ def MotorenAbschalten():
 
 def geradeFahren():
     MotorPort3.run(Adafruit_MotorHAT.FORWARD)
-    MotorPort3.setSpeed(100)
+    MotorPort3.setSpeed(30)
 
 def rueckwaertsFahren():
     MotorPort3.run(Adafruit_MotorHAT.BACKWARD)
