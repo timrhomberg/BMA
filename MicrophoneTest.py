@@ -4,6 +4,11 @@ from Adafruit_MotorHAT import Adafruit_MotorHAT, Adafruit_DCMotor
 import time
 import atexit
 
+mh = Adafruit_MotorHAT(addr=0x60)
+    MotorPort3 = mh.getMotor(3)
+    MotorPort4 = mh.getMotor(4)
+
+
 def MotorenAbschalten():
     mh.getMotor(3).run(Adafruit_MotorHAT.RELEASE)
     mh.getMotor(4).run(Adafruit_MotorHAT.RELEASE)
@@ -30,10 +35,6 @@ def linksFahren():
 
 
 while True:
-    mh = Adafruit_MotorHAT(addr=0x60)
-    MotorPort3 = mh.getMotor(3)
-    MotorPort4 = mh.getMotor(4)
-
     r = sr.Recognizer()
     with sr.Microphone(device_index=2) as source:
         print("Höre zu...")
