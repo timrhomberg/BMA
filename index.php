@@ -36,7 +36,7 @@
         <p>Sensor Hinten: <?php echo "<b>$varhinten</b>"; ?>  </p>
         <figure>
             <img src="auto-vogelperspektive.jpg" alt="Auto aus Vogelperspektive.">
-            <figcaption>Das Bild enthält die Quellenangabe src="..." und einen alt-Text.</figcaption>
+            <figcaption>Das Bild enthält die Quellenangabe src="https://techflourish.com/categories/auto-von-oben-clipart.html"</figcaption>
         </figure>
     </body>
 </html>
