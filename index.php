@@ -44,10 +44,7 @@
             <h1>Ultraschall Sensor Daten</h1>
             <p>Sensor Vorne: <?php echo "<b>$varvorne</b>"; ?> </p>
             <p>Sensor Hinten: <?php echo "<b>$varhinten</b>"; ?>  </p>
-            <figure>
-               <img src="auto-vogelperspektive.jpg" alt="Auto aus Vogelperspektive." style="float:right;>
-               <figcaption>Quellenangabe <a href="https://techflourish.com/categories/auto-von-oben-clipart.html">Link</a></figcaption>
-            </figure>
+            <img src="auto-vogelperspektive.jpg" alt="Auto aus Vogelperspektive." style="float:right;>
         </div>
     </body>
 </html>
