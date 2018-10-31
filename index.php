@@ -27,12 +27,16 @@
   $varhinten = getValueFromKey( 'hinten' );
 ?>
 <html>
-  <head>
-    <title>Sensor Daten</title>
-  </head>
-  <body>
-   <h1>Ultraschall Sensor Daten</h1>
-   <p>Sensor Vorne: <?php echo "<b>$varvorne</b>"; ?> </p>
-   <p>Sensor Hinten: <?php echo "<b>$varhinten</b>"; ?>  </p>
-  </body>
+    <head>
+        <title>Sensor Daten</title>
+    </head>
+    <body>
+        <h1>Ultraschall Sensor Daten</h1>
+        <p>Sensor Vorne: <?php echo "<b>$varvorne</b>"; ?> </p>
+        <p>Sensor Hinten: <?php echo "<b>$varhinten</b>"; ?>  </p>
+        <figure>
+            <img src="auto-vogelperspektive.jpg" alt="Auto aus Vogelperspektive.">
+            <figcaption>Das Bild enthält die Quellenangabe src="..." und einen alt-Text.</figcaption>
+        </figure>
+    </body>
 </html>
