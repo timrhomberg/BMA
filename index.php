@@ -32,9 +32,9 @@
         <script src="http://code.jquery.com/jquery-2.1.3.js" type="text/javascript"></script>
         <script>
             $(document).ready(function() {
-                   $("#refresh").load("db_laden.php");
+                   $("#refresh").load("index.php");
                    var refreshId = setInterval(function() {
-                      $("#refresh").load("db_laden.php");
+                      $("#refresh").load("index.php");
                    }, 7000);
                 });
         </script>
