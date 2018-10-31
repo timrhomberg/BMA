@@ -32,15 +32,15 @@
         <script src="http://code.jquery.com/jquery-2.1.3.js" type="text/javascript"></script>
         <script>
             $(document).ready(function() {
-                   $("#refresh").load("index.php");
+                   $("#MainSensorData").load("index.php");
                    var refreshId = setInterval(function() {
-                      $("#refresh").load("index.php");
+                      $("#MainSensorData").load("index.php");
                    }, 7000);
                 });
         </script>
     </head>
     <body>
-        <div id="refresh">
+        <div id="MainSensorData">
             <h1>Ultraschall Sensor Daten</h1>
             <p>Sensor Vorne: <?php echo "<b>$varvorne</b>"; ?> </p>
             <p>Sensor Hinten: <?php echo "<b>$varhinten</b>"; ?>  </p>
