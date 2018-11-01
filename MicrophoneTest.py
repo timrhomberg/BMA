@@ -53,7 +53,7 @@ while True:
         elif (vartext == 'stop') or (vartext == 'anhalten'):
             MotorenAbschalten()
             print('Auto haltet an')
-        elif (vartext == 'stop') or (vartext == 'anhalten'):
+        elif (vartext == 'nachhinten'):
             rueckwaertsFahren()
             print('Nach hinten Fahren')
         else:
