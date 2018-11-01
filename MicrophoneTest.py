@@ -53,6 +53,9 @@ while True:
         elif (vartext == 'stop') or (vartext == 'anhalten'):
             MotorenAbschalten()
             print('Auto haltet an')
+        elif (vartext == 'stop') or (vartext == 'anhalten'):
+            rueckwaertsFahren()
+            print('Nach hinten Fahren')
         else:
             print(vartext)
     except sr.UnknownValueError:
