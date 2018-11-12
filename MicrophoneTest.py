@@ -5,13 +5,13 @@ import time
 import atexit
 
 mh = Adafruit_MotorHAT(addr=0x60)
-MotorPort3 = mh.getMotor(3)
-MotorPort4 = mh.getMotor(4)
+MotorPort3 = mh.getMotor(1)
+MotorPort4 = mh.getMotor(2)
 
 
 def MotorenAbschalten():
-    mh.getMotor(3).run(Adafruit_MotorHAT.RELEASE)
-    mh.getMotor(4).run(Adafruit_MotorHAT.RELEASE)
+    mh.getMotor(1).run(Adafruit_MotorHAT.RELEASE)
+    mh.getMotor(2).run(Adafruit_MotorHAT.RELEASE)
 
 def geradeFahren():
     MotorPort3.run(Adafruit_MotorHAT.BACKWARD)
