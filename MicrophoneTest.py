@@ -18,7 +18,7 @@ def geradeFahren():
     MotorPort3.setSpeed(100)
 
 def rueckwaertsFahren():
-    MotorPort3.run(Adafruit_MotorHAT.BACKWARD)
+    MotorPort3.run(Adafruit_MotorHAT.FORWARD)
     MotorPort3.setSpeed(100)
 
 def rechtsFahren():
