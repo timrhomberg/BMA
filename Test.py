@@ -17,6 +17,8 @@ def turnOffMotors():
 atexit.register(turnOffMotors)
 
 myMotor = mh.getMotor(3)
+# set the speed to start, from 0 (off) to 255 (max speed)
+myMotor.setSpeed(150)
 
 while (True):
 	print ("Forward! ")
