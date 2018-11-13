@@ -11,5 +11,5 @@ while True:
     varvorne = r.get('vorne')
     varhinten = r.get('hinten')
 
-    if (varvorne <= '4') or (varhinten <= '4'):
+    if (varvorne <= '10') or (varhinten <= '10'):
         MotorPort1.setSpeed(0)
