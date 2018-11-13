@@ -10,10 +10,7 @@ while True:
     varhinten = r.get('hinten')
     # Definition Motor Objekt
     mh = Adafruit_MotorHAT(addr=0x60)
-    MotorPort3 = mh.getMotor(3)
-    MotorPort4 = mh.getMotor(4)
+    MotorPort1 = mh.getMotor(1)
+    MotorPort2 = mh.getMotor(2)
     if (varvorne <= '4') or (varhinten <= '4'):
-        MotorPort4.setSpeed(0)
-
-    else:
-        MotorPort4.setSpeed(100)
+        MotorPort1.setSpeed(0)
