@@ -8,8 +8,8 @@ MotorPort1 = mh.getMotor(1)
 MotorPort2 = mh.getMotor(2)
 while True:
     # Sensor Daten aus Redis DB auslesen
-    varvorne = r.get('vorne')
-    varhinten = r.get('hinten')
+    varvorne = r.get('vorne').decode('utf8').strip()
+    varhinten = r.get('hinten').decode('utf8').strip()
 
     if (varvorne <= '10') or (varhinten <= '10'):
         MotorPort1.setSpeed(0)
