@@ -22,16 +22,16 @@ def rueckwaertsFahren():
     MotorPort3.setSpeed(100)
 
 def rechtsFahren():
-    MotorPort4.run(Adafruit_MotorHAT.FORWARD)
-    MotorPort4.setSpeed(100)
-    MotorPort3.run(Adafruit_MotorHAT.FORWARD)
-    MotorPort3.setSpeed(50)
+    MotorPort4.run(Adafruit_MotorHAT.BACKWARD)
+    MotorPort4.setSpeed(250)
+    MotorPort3.run(Adafruit_MotorHAT.BACKWARD)
+    MotorPort3.setSpeed(75)
 
 def linksFahren():
-    MotorPort4.run(Adafruit_MotorHAT.FORWARD)
-    MotorPort4.setSpeed(100)
+    MotorPort4.run(Adafruit_MotorHAT.BACKWARD)
+    MotorPort4.setSpeed(250)
     MotorPort3.run(Adafruit_MotorHAT.BACKWARD)
-    MotorPort3.setSpeed(50)
+    MotorPort3.setSpeed(75)
 
 
 while True:
