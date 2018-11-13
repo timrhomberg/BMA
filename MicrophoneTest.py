@@ -47,8 +47,10 @@ while True:
             geradeFahren()
             print ('Auto fährt gerade los')
         elif (vartext == 'rechts abbiegen') or (vartext == 'rechts'):
+            rechtsFahren()
             print('Auto biegt rechts ab')
         elif (vartext == 'links abbiegen') or (vartext == 'links'):
+            linksFahren()
             print('Auto biegt links ab')
         elif (vartext == 'stop') or (vartext == 'anhalten'):
             MotorenAbschalten()
