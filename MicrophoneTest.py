@@ -67,8 +67,8 @@ while True:
         else:
             print(vartext)
     except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
+        print("Google Speech Recognition konnte es nicht verstehen, Bitte wiederholen")
     except sr.RequestError as e:
-        print("Could not request results from Google Speech Recognition service; {0}".format(e))
+        print("Fehler mit Google Speech Recognition service aufgetaucht; {0}".format(e))
 
 atexit.register(MotorenAbschalten)
